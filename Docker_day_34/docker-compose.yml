@@ -1,6 +1,0 @@
-version: '3'
-
-services:
-  javaapp:
-    build: .
-    container_name: docker_day_34
