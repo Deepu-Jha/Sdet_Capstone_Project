@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" class="navigator-link">
+              <span class="suite-name border-passed">GUI Automation Framework Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>C:\Users\naren\eclipse-workspace\GUIAutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GUI_Automation_Framework_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" class="hide-methods passed suite-GUI_Automation_Framework_Suite"> (hide)</a> <!-- hide-methods passed suite-GUI_Automation_Framework_Suite -->
+                      <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" class="show-methods passed suite-GUI_Automation_Framework_Suite"> (show)</a> <!-- show-methods passed suite-GUI_Automation_Framework_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-GUI_Automation_Framework_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.AlertTest" class="method navigator-link" hash-for-method="alertValidation">alertValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.NavigationScrollTest" class="method navigator-link" hash-for-method="blogSection">blogSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.DragDropTest" class="method navigator-link" hash-for-method="dragDropValidation">dragDropValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.FormTest" class="method navigator-link" hash-for-method="fillFormTest">fillFormTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.NavigationScrollTest" class="method navigator-link" hash-for-method="homeSection">homeSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.MouseActionTest" class="method navigator-link" hash-for-method="mouseActionValidation">mouseActionValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.NavigationScrollTest" class="method navigator-link" hash-for-method="onlineTrainingSection">onlineTrainingSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.NavigationScrollTest" class="method navigator-link" hash-for-method="playwrightPracticeSection">playwrightPracticeSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.ScrollTest" class="method navigator-link" hash-for-method="scrollValidation">scrollValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.NavigationScrollTest" class="method navigator-link" hash-for-method="udemySection">udemySection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Automation_Framework_Suite" title="testcases.UploadTest" class="method navigator-link" hash-for-method="uploadFileTest">uploadFileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GUI_Automation_Framework_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GUI_Automation_Framework_Suite" class="panel GUI_Automation_Framework_Suite">
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.MouseActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseActionValidation">
+                  </a> <!-- mouseActionValidation -->
+                  <span class="method-name">mouseActionValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AlertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertValidation">
+                  </a> <!-- alertValidation -->
+                  <span class="method-name">alertValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.UploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadFileTest">
+                  </a> <!-- uploadFileTest -->
+                  <span class="method-name">uploadFileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ScrollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollValidation">
+                  </a> <!-- scrollValidation -->
+                  <span class="method-name">scrollValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DragDropTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragDropValidation">
+                  </a> <!-- dragDropValidation -->
+                  <span class="method-name">dragDropValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.FormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFormTest">
+                  </a> <!-- fillFormTest -->
+                  <span class="method-name">fillFormTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+          <div class="suite-GUI_Automation_Framework_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.NavigationScrollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blogSection">
+                  </a> <!-- blogSection -->
+                  <span class="method-name">blogSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeSection">
+                  </a> <!-- homeSection -->
+                  <span class="method-name">homeSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineTrainingSection">
+                  </a> <!-- onlineTrainingSection -->
+                  <span class="method-name">onlineTrainingSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playwrightPracticeSection">
+                  </a> <!-- playwrightPracticeSection -->
+                  <span class="method-name">playwrightPracticeSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="udemySection">
+                  </a> <!-- udemySection -->
+                  <span class="method-name">udemySection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Automation_Framework_Suite-class-passed -->
+        </div> <!-- panel GUI_Automation_Framework_Suite -->
+        <div panel-name="test-xml-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\naren\eclipse-workspace\GUIAutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GUI Automation Framework Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GUI Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.FormTest&quot;/&gt;
+      &lt;class name=&quot;testcases.NavigationScrollTest&quot;/&gt;
+      &lt;class name=&quot;testcases.AlertTest&quot;/&gt;
+      &lt;class name=&quot;testcases.UploadTest&quot;/&gt;
+      &lt;class name=&quot;testcases.MouseActionTest&quot;/&gt;
+      &lt;class name=&quot;testcases.DragDropTest&quot;/&gt;
+      &lt;class name=&quot;testcases.NavigationScrollTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ScrollTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GUI Tests --&gt;
+&lt;/suite&gt; &lt;!-- GUI Automation Framework Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GUI Automation Framework Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GUI Tests (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GUI Automation Framework Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GUI Automation Framework Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GUI_Automation_Framework_Suite');
+function tableData_GUI_Automation_Framework_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'udemySection')
+data.setCell(0, 2, 'testcases.NavigationScrollTest')
+data.setCell(0, 3, 69864);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'blogSection')
+data.setCell(1, 2, 'testcases.NavigationScrollTest')
+data.setCell(1, 3, 55779);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'scrollValidation')
+data.setCell(2, 2, 'testcases.ScrollTest')
+data.setCell(2, 3, 36671);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'onlineTrainingSection')
+data.setCell(3, 2, 'testcases.NavigationScrollTest')
+data.setCell(3, 3, 31808);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'mouseActionValidation')
+data.setCell(4, 2, 'testcases.MouseActionTest')
+data.setCell(4, 3, 27530);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'playwrightPracticeSection')
+data.setCell(5, 2, 'testcases.NavigationScrollTest')
+data.setCell(5, 3, 23087);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fillFormTest')
+data.setCell(6, 2, 'testcases.FormTest')
+data.setCell(6, 3, 21647);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dragDropValidation')
+data.setCell(7, 2, 'testcases.DragDropTest')
+data.setCell(7, 3, 20378);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'homeSection')
+data.setCell(8, 2, 'testcases.NavigationScrollTest')
+data.setCell(8, 3, 17833);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'uploadFileTest')
+data.setCell(9, 2, 'testcases.UploadTest')
+data.setCell(9, 3, 16096);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'alertValidation')
+data.setCell(10, 2, 'testcases.AlertTest')
+data.setCell(10, 3, 14258);
+window.suiteTableData['GUI_Automation_Framework_Suite']= { tableData: data, tableDiv: 'times-div-GUI_Automation_Framework_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-GUI_Automation_Framework_Suite">
+              </div> <!-- times-div-GUI_Automation_Framework_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GUI Automation Framework Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.MouseActionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.AlertTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ScrollTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.UploadTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.DragDropTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.NavigationScrollTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GUI_Automation_Framework_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.FormTest.fillFormTest() throws java.lang.Exception)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillFormTest</span>
+                <span class="method-start">15530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=fillFormTest status=SUCCESS method=FormTest.fillFormTest()[pri:0, instance:testcase...)</span>
+                <span class="method-start">37185 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NavigationScrollTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.NavigationScrollTest.homeSection() throws java.lang.Exception)</span>
+                <span class="method-start">42693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homeSection</span>
+                <span class="method-start">69071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=homeSection status=SUCCESS method=NavigationScrollTest.homeSection()[pri:1, instanc...)</span>
+                <span class="method-start">86909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.NavigationScrollTest.udemySection() throws java.lang.Exception)</span>
+                <span class="method-start">92177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">udemySection</span>
+                <span class="method-start">104321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=udemySection status=SUCCESS method=NavigationScrollTest.udemySection()[pri:2, insta...)</span>
+                <span class="method-start">174191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.NavigationScrollTest.onlineTrainingSection() throws java.lang.Exception)</span>
+                <span class="method-start">179635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">onlineTrainingSection</span>
+                <span class="method-start">206306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=onlineTrainingSection status=SUCCESS method=NavigationScrollTest.onlineTrainingSect...)</span>
+                <span class="method-start">238124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.NavigationScrollTest.blogSection() throws java.lang.Exception)</span>
+                <span class="method-start">243537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blogSection</span>
+                <span class="method-start">262792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=blogSection status=SUCCESS method=NavigationScrollTest.blogSection()[pri:4, instanc...)</span>
+                <span class="method-start">318577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.NavigationScrollTest.playwrightPracticeSection() throws java.lang.Exception)</span>
+                <span class="method-start">323998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">playwrightPracticeSection</span>
+                <span class="method-start">354141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=playwrightPracticeSection status=SUCCESS method=NavigationScrollTest.playwrightPrac...)</span>
+                <span class="method-start">377230 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.AlertTest.alertValidation() throws java.lang.Exception)</span>
+                <span class="method-start">382635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alertValidation</span>
+                <span class="method-start">421131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=alertValidation status=SUCCESS method=AlertTest.alertValidation()[pri:0, instance:t...)</span>
+                <span class="method-start">435393 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.UploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.UploadTest.uploadFileTest() throws java.lang.Exception)</span>
+                <span class="method-start">440791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uploadFileTest</span>
+                <span class="method-start">449607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadFileTest status=SUCCESS method=UploadTest.uploadFileTest()[pri:0, instance:te...)</span>
+                <span class="method-start">465713 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MouseActionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.MouseActionTest.mouseActionValidation() throws java.lang.Exception)</span>
+                <span class="method-start">471111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mouseActionValidation</span>
+                <span class="method-start">506883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=mouseActionValidation status=SUCCESS method=MouseActionTest.mouseActionValidation()...)</span>
+                <span class="method-start">534418 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DragDropTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.DragDropTest.dragDropValidation() throws java.lang.Exception)</span>
+                <span class="method-start">539810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dragDropValidation</span>
+                <span class="method-start">565227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=dragDropValidation status=SUCCESS method=DragDropTest.dragDropValidation()[pri:0, i...)</span>
+                <span class="method-start">585607 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ScrollTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testcases.ScrollTest.scrollValidation() throws java.lang.Exception)</span>
+                <span class="method-start">590907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrollValidation</span>
+                <span class="method-start">616369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrollValidation status=SUCCESS method=ScrollTest.scrollValidation()[pri:0, instanc...)</span>
+                <span class="method-start">653045 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">658375 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

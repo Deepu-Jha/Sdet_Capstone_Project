@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-07T21:55:48 IST" name="GUI Automation Framework Suite" finished-at="2026-06-07T22:06:46 IST" duration-ms="658363">
+    <groups>
+    </groups>
+    <test started-at="2026-06-07T21:55:48 IST" name="GUI Tests" finished-at="2026-06-07T22:06:46 IST" duration-ms="658363">
+      <class name="testcases.ScrollTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.ScrollTest@7e1a1da6]" started-at="2026-06-07T22:05:39 IST" name="setup" finished-at="2026-06-07T22:06:04 IST" duration-ms="25462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ScrollTest.scrollValidation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrollValidation()[pri:0, instance:testcases.ScrollTest@7e1a1da6]" started-at="2026-06-07T22:06:04 IST" name="scrollValidation" finished-at="2026-06-07T22:06:41 IST" duration-ms="36671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ScrollTest@7e1a1da6]" started-at="2026-06-07T22:06:41 IST" name="tearDown" finished-at="2026-06-07T22:06:46 IST" duration-ms="5278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollValidation status=SUCCESS method=ScrollTest.scrollValidation()[pri:0, instance:testcases.ScrollTest@7e1a1da6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ScrollTest -->
+      <class name="testcases.AlertTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.AlertTest@4d63b624]" started-at="2026-06-07T22:02:10 IST" name="setup" finished-at="2026-06-07T22:02:49 IST" duration-ms="38496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.AlertTest.alertValidation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alertValidation()[pri:0, instance:testcases.AlertTest@4d63b624]" started-at="2026-06-07T22:02:49 IST" name="alertValidation" finished-at="2026-06-07T22:03:03 IST" duration-ms="14258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.AlertTest@4d63b624]" started-at="2026-06-07T22:03:03 IST" name="tearDown" finished-at="2026-06-07T22:03:08 IST" duration-ms="5397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertValidation status=SUCCESS method=AlertTest.alertValidation()[pri:0, instance:testcases.AlertTest@4d63b624] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AlertTest -->
+      <class name="testcases.FormTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.FormTest@6970140a]" started-at="2026-06-07T21:55:48 IST" name="setup" finished-at="2026-06-07T21:56:03 IST" duration-ms="15528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.FormTest.fillFormTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillFormTest()[pri:0, instance:testcases.FormTest@6970140a]" started-at="2026-06-07T21:56:03 IST" name="fillFormTest" finished-at="2026-06-07T21:56:25 IST" duration-ms="21647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.FormTest@6970140a]" started-at="2026-06-07T21:56:25 IST" name="tearDown" finished-at="2026-06-07T21:56:30 IST" duration-ms="5505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillFormTest status=SUCCESS method=FormTest.fillFormTest()[pri:0, instance:testcases.FormTest@6970140a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testcases.FormTest@6970140a]" started-at="2026-06-07T22:06:46 IST" name="generateReport" finished-at="2026-06-07T22:06:46 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testcases.FormTest -->
+      <class name="testcases.UploadTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.UploadTest@466cf502]" started-at="2026-06-07T22:03:08 IST" name="setup" finished-at="2026-06-07T22:03:17 IST" duration-ms="8815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.UploadTest.uploadFileTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="uploadFileTest()[pri:0, instance:testcases.UploadTest@466cf502]" started-at="2026-06-07T22:03:17 IST" name="uploadFileTest" finished-at="2026-06-07T22:03:33 IST" duration-ms="16096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.UploadTest@466cf502]" started-at="2026-06-07T22:03:33 IST" name="tearDown" finished-at="2026-06-07T22:03:39 IST" duration-ms="5397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadFileTest status=SUCCESS method=UploadTest.uploadFileTest()[pri:0, instance:testcases.UploadTest@466cf502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.UploadTest -->
+      <class name="testcases.DragDropTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.DragDropTest@2e185cd7]" started-at="2026-06-07T22:04:47 IST" name="setup" finished-at="2026-06-07T22:05:13 IST" duration-ms="25415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.DragDropTest.dragDropValidation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragDropValidation()[pri:0, instance:testcases.DragDropTest@2e185cd7]" started-at="2026-06-07T22:05:13 IST" name="dragDropValidation" finished-at="2026-06-07T22:05:33 IST" duration-ms="20378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragDropValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.DragDropTest@2e185cd7]" started-at="2026-06-07T22:05:33 IST" name="tearDown" finished-at="2026-06-07T22:05:39 IST" duration-ms="5298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragDropValidation status=SUCCESS method=DragDropTest.dragDropValidation()[pri:0, instance:testcases.DragDropTest@2e185cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DragDropTest -->
+      <class name="testcases.NavigationScrollTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:56:30 IST" name="setup" finished-at="2026-06-07T21:56:57 IST" duration-ms="26378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NavigationScrollTest.homeSection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homeSection()[pri:1, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:56:57 IST" name="homeSection" finished-at="2026-06-07T21:57:15 IST" duration-ms="17833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:57:15 IST" name="tearDown" finished-at="2026-06-07T21:57:20 IST" duration-ms="5266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeSection status=SUCCESS method=NavigationScrollTest.homeSection()[pri:1, instance:testcases.NavigationScrollTest@245a26e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:57:20 IST" name="setup" finished-at="2026-06-07T21:57:32 IST" duration-ms="12143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NavigationScrollTest.udemySection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="udemySection()[pri:2, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:57:32 IST" name="udemySection" finished-at="2026-06-07T21:58:42 IST" duration-ms="69864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- udemySection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:58:42 IST" name="tearDown" finished-at="2026-06-07T21:58:47 IST" duration-ms="5443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=udemySection status=SUCCESS method=NavigationScrollTest.udemySection()[pri:2, instance:testcases.NavigationScrollTest@245a26e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:58:47 IST" name="setup" finished-at="2026-06-07T21:59:14 IST" duration-ms="26671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NavigationScrollTest.onlineTrainingSection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="onlineTrainingSection()[pri:3, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:59:14 IST" name="onlineTrainingSection" finished-at="2026-06-07T21:59:46 IST" duration-ms="31808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineTrainingSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:59:46 IST" name="tearDown" finished-at="2026-06-07T21:59:51 IST" duration-ms="5413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=onlineTrainingSection status=SUCCESS method=NavigationScrollTest.onlineTrainingSection()[pri:3, instance:testcases.NavigationScrollTest@245a26e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T21:59:51 IST" name="setup" finished-at="2026-06-07T22:00:10 IST" duration-ms="19255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NavigationScrollTest.blogSection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blogSection()[pri:4, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T22:00:10 IST" name="blogSection" finished-at="2026-06-07T22:01:06 IST" duration-ms="55779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T22:01:06 IST" name="tearDown" finished-at="2026-06-07T22:01:12 IST" duration-ms="5420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blogSection status=SUCCESS method=NavigationScrollTest.blogSection()[pri:4, instance:testcases.NavigationScrollTest@245a26e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T22:01:12 IST" name="setup" finished-at="2026-06-07T22:01:42 IST" duration-ms="30143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NavigationScrollTest.playwrightPracticeSection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="playwrightPracticeSection()[pri:5, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T22:01:42 IST" name="playwrightPracticeSection" finished-at="2026-06-07T22:02:05 IST" duration-ms="23087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playwrightPracticeSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.NavigationScrollTest@245a26e1]" started-at="2026-06-07T22:02:05 IST" name="tearDown" finished-at="2026-06-07T22:02:10 IST" duration-ms="5404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playwrightPracticeSection status=SUCCESS method=NavigationScrollTest.playwrightPracticeSection()[pri:5, instance:testcases.NavigationScrollTest@245a26e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.NavigationScrollTest -->
+      <class name="testcases.MouseActionTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.MouseActionTest@5b800468]" started-at="2026-06-07T22:03:39 IST" name="setup" finished-at="2026-06-07T22:04:15 IST" duration-ms="35771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.MouseActionTest.mouseActionValidation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mouseActionValidation()[pri:0, instance:testcases.MouseActionTest@5b800468]" started-at="2026-06-07T22:04:15 IST" name="mouseActionValidation" finished-at="2026-06-07T22:04:42 IST" duration-ms="27530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseActionValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.MouseActionTest@5b800468]" started-at="2026-06-07T22:04:42 IST" name="tearDown" finished-at="2026-06-07T22:04:47 IST" duration-ms="5391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseActionValidation status=SUCCESS method=MouseActionTest.mouseActionValidation()[pri:0, instance:testcases.MouseActionTest@5b800468] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.MouseActionTest -->
+    </test> <!-- GUI Tests -->
+  </suite> <!-- GUI Automation Framework Suite -->
+</testng-results>

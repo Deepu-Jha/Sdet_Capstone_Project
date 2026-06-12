@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GUI Automation Framework Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GUI Tests(failed)">
+    <classes>
+      <class name="testcases.MouseActionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="mouseActionValidation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.MouseActionTest -->
+      <class name="testcases.AlertTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="alertValidation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.AlertTest -->
+      <class name="testcases.UploadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="uploadFileTest"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.UploadTest -->
+      <class name="testcases.ScrollTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="scrollValidation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.ScrollTest -->
+      <class name="testcases.DragDropTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="dragDropValidation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.DragDropTest -->
+      <class name="testcases.FormTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="fillFormTest"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.FormTest -->
+      <class name="testcases.NavigationScrollTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="udemySection"/>
+          <include name="playwrightPracticeSection"/>
+          <include name="onlineTrainingSection"/>
+          <include name="blogSection"/>
+          <include name="homeSection"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.NavigationScrollTest -->
+    </classes>
+  </test> <!-- GUI Tests(failed) -->
+</suite> <!-- Failed suite [GUI Automation Framework Suite] -->
