@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM
+"https://testng.org/testng-1.0.dtd">
+
+<suite name="ParaBankSuite">
+
+    <test name="ParaBankTest">
+
+        <classes>
+
+            <class name="tests.BankingFlowTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
