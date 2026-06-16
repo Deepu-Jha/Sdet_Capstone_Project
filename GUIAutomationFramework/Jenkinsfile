@@ -1,0 +1,67 @@
+pipeline {
+
+    agent any
+
+    tools {
+        maven 'Maven'
+    }
+
+    stages {
+
+        stage('Checkout Code') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/Deepu-Jha/Sdet_Capstone_Project.git'
+            }
+        }
+
+        stage('Move To Framework') {
+            steps {
+                dir('GUIAutomationFramework') {
+                    bat 'mvn clean'
+                }
+            }
+        }
+
+        stage('Execute Tests') {
+            steps {
+                dir('GUIAutomationFramework') {
+                    bat 'mvn test'
+                }
+            }
+        }
+
+        stage('Archive Reports') {
+            steps {
+                archiveArtifacts artifacts: 'GUIAutomationFramework/reports/**/*.*',
+                                 allowEmptyArchive: true
+
+                archiveArtifacts artifacts: 'GUIAutomationFramework/screenshots/**/*.*',
+                                 allowEmptyArchive: true
+            }
+        }
+    }
+
+    post {
+
+        success {
+            echo 'Framework Executed Successfully'
+        }
+
+        failure {
+            echo 'Execution Failed'
+        }
+
+        always {
+
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'GUIAutomationFramework/reports',
+                reportFiles: 'ExtentReport.html',
+                reportName: 'GUI Automation Report'
+            ])
+        }
+    }
+}
